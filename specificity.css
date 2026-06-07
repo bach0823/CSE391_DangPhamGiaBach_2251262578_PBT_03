@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: aqua;
+} /* Specificity: 0,0,1 */
+
+body p {
+  color: red;
+} /* Specificity: 0,0,2 */
+
+.text {
+  color: lightblue;
+} /* Specificity: 0,1,0 */
+
+p.text {
+  color: black;
+} /* Specificity: 0,1,1 */
+
+.text.highlight {
+  color: blue;
+} /* Specificity: 0,2,0 */
+
+p.text.highlight {
+  color: yellowgreen;
+} /* Specificity: 0,2,1 */
+
+p.highlight.text {
+  color: darkgreen;
+} /* Specificity: 0,2,1 */
+
+#demo {
+  color: orange;
+} /* Specificity: 1,0,0 */
+
+#demo.text {
+  color: mediumspringgreen;
+} /* Specificity: 1,1,0 */
+
+#demo.highlight {
+  color: darkgoldenrod;
+} /* Specificity: 1,1,0 */
