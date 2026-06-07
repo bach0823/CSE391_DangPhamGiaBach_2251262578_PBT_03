@@ -1,0 +1,43 @@
+/* ======================== Cách 1 ========================== */
+/* Đặt thuộc tính box-sizing cho toàn bộ các element là border-box */
+/* * {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  float: left;
+}
+.content {
+  width: 660px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  float: left;
+} */
+
+/* ======================== Cách 2 ========================== */
+/* Trừ đi phần padding + border ra khỏi width */
+/* 300 - 20*2 - 2*1 = 258 */
+/* 660 - 30*2 - 2*1 = 598*/
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.sidebar {
+  width: 258px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  float: left;
+}
+.content {
+  width: 598px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  float: left;
+}
