@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body */
+body {
+  /* element selector */
+  font-family: sans-serif;
+  background-color: lightyellow;
+  color: black;
+  line-height: 1.4;
+}
+
+/* header */
+header {
+  background: linear-gradient(to right, lightseagreen, yellowgreen);
+  color: white;
+  padding: 20px;
+}
+
+/* nav */
+nav ul {
+  /* descendant selector */
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+nav a {
+  color: darkolivegreen;
+  text-decoration: none;
+}
+
+nav a:hover {
+  /* pseudo-class selector */
+  color: white;
+  text-decoration: underline;
+}
+
+nav a.active {
+  /* class selector */
+  font-weight: bold;
+}
+
+/* main,aside */
+main,
+aside {
+  padding: 16px 32px;
+}
+
+section {
+  margin-bottom: 16px;
+}
+
+/* table */
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table {
+  width: 60%;
+  margin: 0 auto;
+}
+
+th,
+tfoot td {
+  background-color: rgb(165, 159, 80);
+  color: white;
+}
+
+tr {
+  background-color: lightgoldenrodyellow;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(219, 219, 145);
+}
+
+tbody tr:hover {
+  background-color: gray;
+}
+
+.weak-skill {
+  color: red;
+  font-weight: bold;
+}
+
+/* aside */
+#lien-he h3 {
+  /* id selector */
+  text-decoration: underline;
+  color: darkcyan;
+}
+
+/* footer */
+footer {
+  background-color: darkgreen;
+  color: gainsboro;
+  text-align: center;
+}
