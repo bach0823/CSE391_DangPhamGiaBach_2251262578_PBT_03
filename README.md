@@ -14,10 +14,15 @@
 
 **Tài liệu tham chiếu:** `tuan_2_css_core/08_introduction_css.md` → `11_box_model.md`
 
+## Bắt đầu nhanh
+
+Mở **[index.html](./index.html)** — trang mục lục liên kết tất cả bài tập.
+
 ## Cấu trúc dự án
 
 ```
 PBT_03/
+├── index.html              # Mục lục bài tập
 ├── README.md
 ├── answers.md
 ├── selectors_test.html       # A2 — kiểm chứng selectors
@@ -60,6 +65,18 @@ start specificity.html
 ## Video thực hành OBS
 
 https://youtu.be/h4nD_-bs8gE
+
+## Cải thiện gần đây
+
+- Thêm `index.html` làm hub điều hướng
+- Chuẩn hóa `lang="vi"` trên mọi file HTML
+- README cập nhật tiến độ và link repo
+
+## Cải thiện gần đây
+
+- Thêm `index.html` làm hub điều hướng
+- Chuẩn hóa `lang="vi"` trên mọi file HTML
+- README cập nhật tiến độ và link repo
 
 ---
 
